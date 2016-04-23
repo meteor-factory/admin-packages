@@ -83,7 +83,7 @@ meteor add admin-client-blaze
 
 ```js
 const configObj = {
-  
+  ...
 };
 
 Meteor.startup(() => {
