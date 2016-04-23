@@ -97,7 +97,7 @@ The API's functionality is to modify the config.
 
 Methods:
 ```js
-Admin.addCollection(collection)
+Admin.addCrud(collection)
 Admin.addSidebarLink(linkObj)
 Admin.addRoute(routeObj)
 ```
