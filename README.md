@@ -90,3 +90,14 @@ Meteor.startup(() => {
   Admin.config(configObj)
 })
 ```
+# API
+In order to have a set of sweet add-on packages, an api must be exposed.
+
+The API's functionality is to modify the config.
+
+Methods:
+```js
+Admin.addCollection(collection)
+Admin.addSidebarLink(linkObj)
+Admin.addRoute(routeObj)
+```
