@@ -26,6 +26,13 @@ Methods:
 * `Admin.addRoute(routeObj)`
 * ...
 
+### `admin-zero-config`
+Gobal: `Admin._zeroConfig`
+
+Generates a default config file for the user.
+
+Should prepopulate with collections and generate schemas for these collections so that Admin can be used right out of the box.
+
 ## Server
 
 ### `admin-methods`
