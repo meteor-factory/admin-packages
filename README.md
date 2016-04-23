@@ -40,3 +40,16 @@ Adds publish function for admins
 * `admin.find(collection, query)`
 * `admin.findOne(collection, query/docId)`
 
+## Client
+
+### `admin-client-blaze`
+Add templates and blaze helpers.
+
+Adds `$AdminUtils` as a helper.
+
+# Setup
+```
+meteor add admin-server
+meteor add admin-client-blaze
+```
+Admin
